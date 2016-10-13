@@ -1,0 +1,57 @@
+#layout {
+    margin: 0px auto;
+    max-width: 640px;
+    min-width: 320px;
+    height: 200px;
+    width: 100%;
+    background-color: #f40;
+    >#header {
+        width: 100%;
+        background-color: #0f0;
+        >.topbar {
+        		position: fixed;
+        		top: 0;
+        		width: 100%;
+        		max-width:640px;
+        		min-width:320px;
+            >.icon-logo {
+                background-image: url(../images/sprites.png);
+                background-size: 200px 200px;
+                position: absolute;
+                width: 60px;
+                height: 40px;
+                background-position: 0 -103px;
+                left: 5px;
+            }
+            >form {
+                width: 100%;
+                padding: 5px 50px 0 70px;
+                position: relative;
+                >.icon-search {
+                    background-image: url(../images/sprites.png);
+                    background-size: 200px 200px;
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    background-position: -60px -109px;
+                    top: 10px;
+                    left: 75px;
+                }
+                >input {
+                    width: 100%;
+                    height: 30px;
+                    border-radius: 15px;
+                    padding-left: 25px;
+                }
+            }
+            >.login {
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                right: 0;
+                top: 10px;
+                color: #fff;
+            }
+        }
+    }
+}
